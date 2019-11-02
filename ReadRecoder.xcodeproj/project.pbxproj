@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE753BB236DC3F000F1DCD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE753BA236DC3F000F1DCD4 /* AppDelegate.swift */; };
+		DCE753BD236DC3F000F1DCD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE753BC236DC3F000F1DCD4 /* SceneDelegate.swift */; };
+		DCE753BF236DC3F000F1DCD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE753BE236DC3F000F1DCD4 /* ContentView.swift */; };
+		DCE753C1236DC3F100F1DCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE753C0236DC3F100F1DCD4 /* Assets.xcassets */; };
+		DCE753C4236DC3F100F1DCD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE753C3236DC3F100F1DCD4 /* Preview Assets.xcassets */; };
+		DCE753C7236DC3F100F1DCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE753C5236DC3F100F1DCD4 /* LaunchScreen.storyboard */; };
+		DCE753D2236DC3F100F1DCD4 /* ReadRecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE753D1236DC3F100F1DCD4 /* ReadRecoderTests.swift */; };
+		DCE753DD236DC3F100F1DCD4 /* ReadRecoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE753DC236DC3F100F1DCD4 /* ReadRecoderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE753CE236DC3F100F1DCD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE753AF236DC3F000F1DCD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE753B6236DC3F000F1DCD4;
+			remoteInfo = ReadRecoder;
+		};
+		DCE753D9236DC3F100F1DCD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE753AF236DC3F000F1DCD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE753B6236DC3F000F1DCD4;
+			remoteInfo = ReadRecoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE753B7236DC3F000F1DCD4 /* ReadRecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadRecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE753BA236DC3F000F1DCD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE753BC236DC3F000F1DCD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCE753BE236DC3F000F1DCD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCE753C0236DC3F100F1DCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE753C3236DC3F100F1DCD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCE753C6236DC3F100F1DCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE753C8236DC3F100F1DCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE753CD236DC3F100F1DCD4 /* ReadRecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadRecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE753D1236DC3F100F1DCD4 /* ReadRecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadRecoderTests.swift; sourceTree = "<group>"; };
+		DCE753D3236DC3F100F1DCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE753D8236DC3F100F1DCD4 /* ReadRecoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadRecoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE753DC236DC3F100F1DCD4 /* ReadRecoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadRecoderUITests.swift; sourceTree = "<group>"; };
+		DCE753DE236DC3F100F1DCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE753B4236DC3F000F1DCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE753CA236DC3F100F1DCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE753D5236DC3F100F1DCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE753AE236DC3F000F1DCD4 = {
+			isa = PBXGroup;
+			children = (
+				DCE753B9236DC3F000F1DCD4 /* ReadRecoder */,
+				DCE753D0236DC3F100F1DCD4 /* ReadRecoderTests */,
+				DCE753DB236DC3F100F1DCD4 /* ReadRecoderUITests */,
+				DCE753B8236DC3F000F1DCD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE753B8236DC3F000F1DCD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE753B7236DC3F000F1DCD4 /* ReadRecoder.app */,
+				DCE753CD236DC3F100F1DCD4 /* ReadRecoderTests.xctest */,
+				DCE753D8236DC3F100F1DCD4 /* ReadRecoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE753B9236DC3F000F1DCD4 /* ReadRecoder */ = {
+			isa = PBXGroup;
+			children = (
+				DCE753BA236DC3F000F1DCD4 /* AppDelegate.swift */,
+				DCE753BC236DC3F000F1DCD4 /* SceneDelegate.swift */,
+				DCE753BE236DC3F000F1DCD4 /* ContentView.swift */,
+				DCE753C0236DC3F100F1DCD4 /* Assets.xcassets */,
+				DCE753C5236DC3F100F1DCD4 /* LaunchScreen.storyboard */,
+				DCE753C8236DC3F100F1DCD4 /* Info.plist */,
+				DCE753C2236DC3F100F1DCD4 /* Preview Content */,
+			);
+			path = ReadRecoder;
+			sourceTree = "<group>";
+		};
+		DCE753C2236DC3F100F1DCD4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCE753C3236DC3F100F1DCD4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCE753D0236DC3F100F1DCD4 /* ReadRecoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE753D1236DC3F100F1DCD4 /* ReadRecoderTests.swift */,
+				DCE753D3236DC3F100F1DCD4 /* Info.plist */,
+			);
+			path = ReadRecoderTests;
+			sourceTree = "<group>";
+		};
+		DCE753DB236DC3F100F1DCD4 /* ReadRecoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE753DC236DC3F100F1DCD4 /* ReadRecoderUITests.swift */,
+				DCE753DE236DC3F100F1DCD4 /* Info.plist */,
+			);
+			path = ReadRecoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE753B6236DC3F000F1DCD4 /* ReadRecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE753E1236DC3F100F1DCD4 /* Build configuration list for PBXNativeTarget "ReadRecoder" */;
+			buildPhases = (
+				DCE753B3236DC3F000F1DCD4 /* Sources */,
+				DCE753B4236DC3F000F1DCD4 /* Frameworks */,
+				DCE753B5236DC3F000F1DCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadRecoder;
+			productName = ReadRecoder;
+			productReference = DCE753B7236DC3F000F1DCD4 /* ReadRecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE753CC236DC3F100F1DCD4 /* ReadRecoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE753E4236DC3F100F1DCD4 /* Build configuration list for PBXNativeTarget "ReadRecoderTests" */;
+			buildPhases = (
+				DCE753C9236DC3F100F1DCD4 /* Sources */,
+				DCE753CA236DC3F100F1DCD4 /* Frameworks */,
+				DCE753CB236DC3F100F1DCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE753CF236DC3F100F1DCD4 /* PBXTargetDependency */,
+			);
+			name = ReadRecoderTests;
+			productName = ReadRecoderTests;
+			productReference = DCE753CD236DC3F100F1DCD4 /* ReadRecoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCE753D7236DC3F100F1DCD4 /* ReadRecoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE753E7236DC3F100F1DCD4 /* Build configuration list for PBXNativeTarget "ReadRecoderUITests" */;
+			buildPhases = (
+				DCE753D4236DC3F100F1DCD4 /* Sources */,
+				DCE753D5236DC3F100F1DCD4 /* Frameworks */,
+				DCE753D6236DC3F100F1DCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE753DA236DC3F100F1DCD4 /* PBXTargetDependency */,
+			);
+			name = ReadRecoderUITests;
+			productName = ReadRecoderUITests;
+			productReference = DCE753D8236DC3F100F1DCD4 /* ReadRecoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE753AF236DC3F000F1DCD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Nagahama Rei";
+				TargetAttributes = {
+					DCE753B6236DC3F000F1DCD4 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					DCE753CC236DC3F100F1DCD4 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = DCE753B6236DC3F000F1DCD4;
+					};
+					DCE753D7236DC3F100F1DCD4 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = DCE753B6236DC3F000F1DCD4;
+					};
+				};
+			};
+			buildConfigurationList = DCE753B2236DC3F000F1DCD4 /* Build configuration list for PBXProject "ReadRecoder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE753AE236DC3F000F1DCD4;
+			productRefGroup = DCE753B8236DC3F000F1DCD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE753B6236DC3F000F1DCD4 /* ReadRecoder */,
+				DCE753CC236DC3F100F1DCD4 /* ReadRecoderTests */,
+				DCE753D7236DC3F100F1DCD4 /* ReadRecoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE753B5236DC3F000F1DCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE753C7236DC3F100F1DCD4 /* LaunchScreen.storyboard in Resources */,
+				DCE753C4236DC3F100F1DCD4 /* Preview Assets.xcassets in Resources */,
+				DCE753C1236DC3F100F1DCD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE753CB236DC3F100F1DCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE753D6236DC3F100F1DCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE753B3236DC3F000F1DCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE753BB236DC3F000F1DCD4 /* AppDelegate.swift in Sources */,
+				DCE753BD236DC3F000F1DCD4 /* SceneDelegate.swift in Sources */,
+				DCE753BF236DC3F000F1DCD4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE753C9236DC3F100F1DCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE753D2236DC3F100F1DCD4 /* ReadRecoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE753D4236DC3F100F1DCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE753DD236DC3F100F1DCD4 /* ReadRecoderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE753CF236DC3F100F1DCD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE753B6236DC3F000F1DCD4 /* ReadRecoder */;
+			targetProxy = DCE753CE236DC3F100F1DCD4 /* PBXContainerItemProxy */;
+		};
+		DCE753DA236DC3F100F1DCD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE753B6236DC3F000F1DCD4 /* ReadRecoder */;
+			targetProxy = DCE753D9236DC3F100F1DCD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCE753C5236DC3F100F1DCD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE753C6236DC3F100F1DCD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE753DF236DC3F100F1DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE753E0236DC3F100F1DCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE753E2236DC3F100F1DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReadRecoder/Preview Content\"";
+				DEVELOPMENT_TEAM = 87GN29DVM8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReadRecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.making.ReadRecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE753E3236DC3F100F1DCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ReadRecoder/Preview Content\"";
+				DEVELOPMENT_TEAM = 87GN29DVM8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ReadRecoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.making.ReadRecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCE753E5236DC3F100F1DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87GN29DVM8;
+				INFOPLIST_FILE = ReadRecoderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.making.ReadRecoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadRecoder.app/ReadRecoder";
+			};
+			name = Debug;
+		};
+		DCE753E6236DC3F100F1DCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87GN29DVM8;
+				INFOPLIST_FILE = ReadRecoderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.making.ReadRecoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadRecoder.app/ReadRecoder";
+			};
+			name = Release;
+		};
+		DCE753E8236DC3F100F1DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87GN29DVM8;
+				INFOPLIST_FILE = ReadRecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.making.ReadRecoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadRecoder;
+			};
+			name = Debug;
+		};
+		DCE753E9236DC3F100F1DCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87GN29DVM8;
+				INFOPLIST_FILE = ReadRecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.felix.making.ReadRecoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadRecoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE753B2236DC3F000F1DCD4 /* Build configuration list for PBXProject "ReadRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE753DF236DC3F100F1DCD4 /* Debug */,
+				DCE753E0236DC3F100F1DCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE753E1236DC3F100F1DCD4 /* Build configuration list for PBXNativeTarget "ReadRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE753E2236DC3F100F1DCD4 /* Debug */,
+				DCE753E3236DC3F100F1DCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE753E4236DC3F100F1DCD4 /* Build configuration list for PBXNativeTarget "ReadRecoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE753E5236DC3F100F1DCD4 /* Debug */,
+				DCE753E6236DC3F100F1DCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE753E7236DC3F100F1DCD4 /* Build configuration list for PBXNativeTarget "ReadRecoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE753E8236DC3F100F1DCD4 /* Debug */,
+				DCE753E9236DC3F100F1DCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE753AF236DC3F000F1DCD4 /* Project object */;
+}
