@@ -1,0 +1,6 @@
+framework module Pods_ReadRecoder_ReadRecoderUITests {
+  umbrella header "Pods-ReadRecoder-ReadRecoderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
